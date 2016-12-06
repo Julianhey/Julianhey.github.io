@@ -6,15 +6,18 @@ body {
     margin-bottom: 0;
 }
 
+.right{
+    float: right;
+}
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-row{
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 .carousel{
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 /* Declare heights because of positioning of img element */
@@ -65,7 +68,7 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-    margin-top:3rem;
+    margin-top:1.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -126,7 +129,9 @@ p {
 
 .install-date{
     vertical-align: bottom;
+
 }
+
 
 .sidenav span {
     position: absolute;
@@ -153,7 +158,7 @@ h2{
 
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {
-    height:600px
+    height:570px
 }
 
 /* Set gray background color and 100% height */
@@ -174,12 +179,33 @@ footer {
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
     .sidenav {
         height: auto;
         padding: 15px;
     }
     .row.content {height: auto;}
+}
+
+@media screen and (max-width: 1200px) {
+    .sidenav {
+        height: 83%;
+        padding: 15px;
+    }
+    .featurette-image{
+        max-width:380px;
+        max-height:430px;
+        padding-top: 50px;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .featurette-image{
+
+
+        padding-top: 0px;
+    }
+
 }
 
 .home-button {
