@@ -22,13 +22,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Game Library</a>
+            <a  class="navbar-brand with-image" href="index.html"style="width: 75px"><img class="home-button-actual" src="resources/re2.png" /></a>
         </div>
+
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
 
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Steam<span class="caret"></span></a>
+                    <a class="dropdown-toggle with-image" data-toggle="dropdown" href="#"><img class="home-button" src="resources/steam-xxl.png" /></a><a class="dropdown-toggle with-image" data-toggle="dropdown" href="#">Steam<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="csgo.html">Counter-Strike: Global Offensive</a></li>
                         <li><a href="portal.html">Portal 2</a></li>
@@ -39,22 +40,21 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Playstation<span
-                            class="caret"></span></a>
+                    <a class="dropdown-toggle with-image" data-toggle="dropdown" href="#"><img class="home-button" src="resources/WhitePS.png" /></a><a class="dropdown-toggle with-image" data-toggle="dropdown" href="#">Playstation<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a class="no-items btn disabled" href="#">-Empty-</a></li>
 
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Xbox<span class="caret"></span></a>
+                    <a class="dropdown-toggle with-image" data-toggle="dropdown" href="#"><img class="home-button" src="resources/consoles-xbox-xxl.png" /></a><a class="dropdown-toggle with-image" data-toggle="dropdown" href="#">Xbox<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a class="no-items btn disabled" href="#">-Empty-</a></li>
 
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nintendo<span class="caret"></span></a>
+                    <a class="dropdown-toggle with-image" data-toggle="dropdown" href="#"><img class="home-button" src="resources/WhiteNin.png" /></a><a class="dropdown-toggle with-image" data-toggle="dropdown" href="#">Nintendo<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a class="no-items btn disabled" href="#">-Empty-</a></li>
 
@@ -137,37 +137,37 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="resources/Forum.png" alt="image" width="140" height="140">
+                <h2>Community Forum</h2>
+                <p class="info" id="forum">Go here to talk to your fellow players about anything CS:GO related.</p>
+                <p class="toggle btn" id="forumbutton">View details</p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="resources/Reviews2.png" alt="image" width="140" height="140">
+                <h2>Reviews</h2>
+                <p class="info" id="review">Go here to read what others think about CS:GO.</p>
+                <p class="toggle btn" id="reviewbutton">View details</p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <img class="img-circle" src="resources/Media.png" alt="image" width="140" height="140">
+                <h2>Other Media</h2>
+                <p class="info" id="media">All CS:GO related videos, screenshots and artwork can be found here.</p>
+                <p class="toggle btn" id="mediabutton">View details</p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
 
 
 
-    <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
+        <!-- /END THE FEATURETTES -->
 
 
-</div><!-- /.container -->
+        <!-- FOOTER -->
+
+
+    </div><!-- /.container -->
 
 </div>
 
@@ -176,8 +176,9 @@
     <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 
-<script src="js/custom.js"></script>
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
