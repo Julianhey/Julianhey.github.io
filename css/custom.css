@@ -176,7 +176,16 @@ footer {
     padding: 5px;
     text-align: center;
     padding-top: 15px;
+
 }
+
+#aboutpagefooter{
+    position: absolute;
+    right:0;
+    left:0;
+    bottom:0;
+}
+
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 992px) {
